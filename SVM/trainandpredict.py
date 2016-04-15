@@ -10,13 +10,10 @@ from sklearn.feature_selection import SelectPercentile, f_classif
 
 import sys
 from time import time
+sys.path.append("../processdata/")
+
 from preprocessdata import preprocess
-
-
 features_train_vect,features_train, features_test, labels_train, labels_test = preprocess()
-
-
-
 
 
 from sklearn.svm import SVC
