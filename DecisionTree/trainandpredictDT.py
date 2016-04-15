@@ -30,6 +30,7 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(pred , labels_test)
 print accuracy
 
+#put your datat here to check the classification and also avoid special chars in it dont put ' char anywhere in it
 
 prediction_data = ['MS Dhoni and Suresh Raina, former IPL teammates, will turn opponents for Thursdays crucial clash',
                    'Defending putting up her statues beside Kanshi Rams at various memorials her government built, BSP chief Mayawati on Thursday said it was done to honour the wishes of her mentor and her party will concentrate on development now and not on building memorials if voted to power',
