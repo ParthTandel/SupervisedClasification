@@ -10,7 +10,7 @@ from sklearn.feature_selection import SelectPercentile, f_classif
 
 
 
-def preprocess(words_file = "data.pkl", authors_file="datalabels.pkl"):
+def preprocess(words_file = "data/data.pkl", authors_file="data/datalabels.pkl"):
    
     authors_file_handler = open(authors_file, "r")
     authors = pickle.load(authors_file_handler)

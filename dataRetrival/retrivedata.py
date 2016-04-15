@@ -3,8 +3,8 @@ import newspaper
 import os
 import re
 cnn_paper = newspaper.build('http://www.indiatimes.com/entertainment/' ,  memoize_articles=False)
-f = open('../data.pkl','a')
-f1 = open('../datalabels.pkl','a')
+f = open('../data/data.pkl','a')
+f1 = open('../data/datalabels.pkl','a')
 f2 = open('count','r+')
 f.write("\n")
 var = f2.read()
