@@ -29,5 +29,4 @@ def preprocess(words_file = "../data/data.pkl", authors_file="../data/datalabels
     selector.fit(features_train_transformed, labels_train)
     features_train_transformed = selector.transform(features_train_transformed).toarray()
     features_test_transformed  = selector.transform(features_test_transformed).toarray()
-    print 10
     return features_train_vect , features_train_transformed, features_test_transformed, labels_train, labels_test
